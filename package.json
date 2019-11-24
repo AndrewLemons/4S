@@ -10,10 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/Thermacon/4S.git"
   },
-  "keywords": [
-    "school",
-    "security"
-  ],
   "author": "Thermacon",
   "license": "MIT",
   "dependencies": {
