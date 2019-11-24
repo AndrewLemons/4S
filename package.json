@@ -18,7 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
   "bugs": {
     "url": "https://github.com/Thermacon/4S/issues"
   },
