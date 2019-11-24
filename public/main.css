@@ -1,0 +1,45 @@
+/* General */
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Logo */
+p.logo {
+	color: red;
+	font-family: 'Tomorrow', sans-serif;
+	font-size: 60px;
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+}
+
+/* Main content div */
+#main {
+	background: #dedede;
+	width: 90%;
+	padding: 8px;
+	margin: auto;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+
+/* Regular tables */
+table, td, th {
+	border-collapse: collapse;
+	text-align: left;
+	padding: 8px;
+}
+th {
+	background: #cccccc;
+	text-align: center;
+}
+
+/* Widget holding tables */
+table.widget {
+	width: 100%;
+	margin-bottom: 5px;
+	border-collapse: collapse;
+	border: 1px solid #b0b0b0;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}

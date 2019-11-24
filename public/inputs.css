@@ -1,0 +1,40 @@
+/* Form Inputs */
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 8px 10px;
+	box-sizing: border-box;
+	border: 3px solid #ccc;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	outline: none;
+}
+input[type=text]:focus, input[type=password]:focus {
+	border: 3px solid #555;
+}
+
+input[type=submit] {
+	background-color: #f44336;
+	border: none;
+	color: white;
+	padding: 8px 12px;
+	text-align: center;
+	display: inline-block;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+input[type=submit]:hover {
+	background-color: red;
+}
+
+/* Link Buttons */
+a.linkButton:link, a.linkButton:visited {
+	background-color: #f44336;
+	color: white;
+	padding: 8px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+a.linkButton:hover, a.linkButton:active {
+	background-color: red;
+}
